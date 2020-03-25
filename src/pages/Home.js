@@ -8,10 +8,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Hero>
-        <Banner
-          title="luxurious rooms"
-          subtitle="deluxe rooms starting RP.1.200.000"
-        >
+        <Banner title="luxurious rooms" subtitle="deluxe rooms starting $100">
           <Link to="/rooms" className="btn-primary">
             Our Rooms
           </Link>
